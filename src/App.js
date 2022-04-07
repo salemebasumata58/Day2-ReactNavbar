@@ -11,9 +11,11 @@ function App() {
       width="100px"
       /></div>
       <div className='linkss'>
-        {links.map((el)=>{
-          return <Link link={el} />;
-        })}
+        {
+        links.map((el)=>{
+        return <Link link={el} />;
+        })
+        }
       </div>
       <div><button className='btn'>Contact</button></div>
 
